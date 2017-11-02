@@ -1,0 +1,34 @@
+/* PHASE 4: Footer */
+.footer {
+  background-color: #fff;
+  border-left: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  width: 900px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  color: #aaa;
+  font-size: 14px;
+}
+
+.right-foot li:hover {
+  color: #000;
+}
+
+.right-foot > ul {
+  display: flex;
+}
+.right-foot li {
+  padding: 10px;
+  padding-top: 20px;
+}
+.right-foot li:last-child {
+  padding-right: 20px;
+}
+
+.left-foot {
+  padding: 20px;
+}
